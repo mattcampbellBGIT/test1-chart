@@ -20,11 +20,6 @@ spec:
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
     {{- end }}
-
-    volumes:
-     - name: data
-       peresistentVolumeClaim:
-         claimName: mypvc
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
