@@ -9,5 +9,5 @@ entries:
     name: testchart1
     urls:
     - https://mattcampbellBGIT.github.io/test1-chart/testchart1-0.3.0.tgz
-    version: 0.1.0
+    version: 0.2.0
 generated: "2019-09-23T09:53:28.3145161-06:00"
